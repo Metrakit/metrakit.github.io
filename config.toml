@@ -1,0 +1,4 @@
+baseURL = 'https://jordane.net'
+languageCode = 'en-us'
+title = 'Jordane.net'
+theme = "PaperMod"
