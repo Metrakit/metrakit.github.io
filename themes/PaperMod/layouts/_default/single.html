@@ -33,6 +33,11 @@
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
   </div>
+
+  <hyvor-talk-comments 
+      website-id="8419" 
+      page-id="{{ .RelPermalink }}"
+  ></hyvor-talk-comments>
   {{- end }}
 
   <footer class="post-footer">
@@ -56,3 +61,11 @@
 </article>
 
 {{- end }}{{/* end main */}}
+
+
+{{ define "custom_js" }}
+
+<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+
+{{- end }}{{/* end custom_js */}}
+
