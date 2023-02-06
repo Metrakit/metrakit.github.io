@@ -2,5 +2,71 @@
     "baseURL": "https://jordane.net",
     "languageCode": "fr-fr",
     "title": "Jordane.net",
-    "theme": "PaperMod"
+    "theme": "PaperMod",
+    "profileMode": true,
+    "googleAnalytics": "",
+    "params": {
+        "env": "production",
+        "profileMode": {
+            "enabled": true,
+            "title": "LoremIpsum",
+            "imageUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg",
+            "imageTitle": "ProfileMode image",
+            "subtitle": "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive",
+            "buttons": [
+                {
+                    "name": "Blog",
+                    "url": "posts"
+                },
+                {
+                    "name": "Profile Mode",
+                    "url": "#"
+                }
+            ]
+        },
+        "socialIcons": [
+            {
+                "name": "github",
+                "url": "https://github.com/Metrakit"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/jordane-jouffroy-91764295"
+            },
+            {
+                "name": "Rss",
+                "url": "index.xml"
+            }
+        ]
+    },
+    "menu": {
+        "main": [
+            {
+                "name": "Archive",
+                "url": "archives/",
+                "weight": 5
+            },
+            {
+                "name": "Tags",
+                "url": "tags",
+                "weight": 10
+            },
+            {
+                "name": "Categories",
+                "url": "categories",
+                "weight": 10
+            },
+            {
+                "name": "Series",
+                "url": "series",
+                "weight": 10
+            }
+        ]
+    },
+    "taxonomies": {
+        "category": "categories",
+        "tag": "tags",
+        "series": "series"
+    },
+    "defaultContentLanguage": "fr"
 }
